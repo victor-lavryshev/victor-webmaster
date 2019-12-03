@@ -1,0 +1,11 @@
+[[pdoMenu?
+    &parents=`4`
+    &level=`2`
+    &outerClass=`nav nav-inline`
+    &rowClass=`nav-item`
+    &parentClass=`dropdown`
+    &innerClass=`dropdown-menu`
+    &tplParentRow=`@INLINE <li class="[[+classnames]]"><a class="nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]</li>`
+    &tplInner=`@INLINE <div class="[[+classnames]]">[[+wrapper]]</div>`
+    &tplInnerRow=`@INLINE <a class="nav-link" href="[[+link]]" [[+attributes]]>[[+menutitle]]</a>[[+wrapper]]`
+]]
